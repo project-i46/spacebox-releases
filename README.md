@@ -40,8 +40,8 @@ Double-click the MSIX package and click **Install**. The package is code-signed 
 Download the `.run` file, make it executable, and run it — it launches the installer:
 
 ```bash
-chmod +x spacebox-lite-*-linux-x64.run
-./spacebox-lite-*-linux-x64.run
+chmod +x SpaceBoxLite-*-linux-x64.run
+./SpaceBoxLite-*-linux-x64.run
 ```
 
 Secure key storage requires `libsecret` and a running keyring (GNOME Keyring or KWallet). On Ubuntu/Debian:
