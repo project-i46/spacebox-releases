@@ -44,12 +44,6 @@ chmod +x SpaceBoxLite-*-linux-x64.run
 ./SpaceBoxLite-*-linux-x64.run
 ```
 
-Secure key storage requires `libsecret` and a running keyring (GNOME Keyring or KWallet). On Ubuntu/Debian:
-
-```bash
-sudo apt install libsecret-1-0 libjsoncpp25
-```
-
 ## Verifying your download
 
 Each release includes a `SHA256SUMS` file. After downloading, verify with:
